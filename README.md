@@ -1,6 +1,20 @@
-# JobTrack Web
+# JobTrack
 
-A React front end for the [JobTrack API](https://github.com/daniahaitham/jobtrack-api). Log in, then track your job applications in one place.
+A job application tracker. Log each role you apply for, move it through **Applied → Interview → Offer / Rejected**, and filter or search your list.
+
+**Live demo:** https://jobtrack-web-gamma.vercel.app
+**API repo:** https://github.com/daniahaitham/jobtrack-api
+
+> The API runs on a free plan and sleeps when unused, so the **first load can take about a minute**.
+
+Built with React (Vite), talking to an ASP.NET Core API with JWT login.
+
+## Run it locally
+
+1. Start the API (see the API repo).
+2. In this folder run `npm install`, then `npm run dev`.
+3. Open http://localhost:5173
+
 
 ## Features
 
