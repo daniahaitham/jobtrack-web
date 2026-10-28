@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Mark from "./Mark";
 
-const API = "http://localhost:5000";
+const API = import.meta.env.VITE_API_URL || "http://localhost:5000";
 const STAGES = ["Applied", "Interview", "Offer", "Rejected"];
 
 // "2026-10-24T13:34:20" -> "24 Oct"
