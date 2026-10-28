@@ -47,7 +47,7 @@ There is no sign-up screen yet. Create an account with `POST /api/auth/register`
 ![Applications list](docs/list.png)
 
 ![Sign-up screen](docs/signup.png)
-
+![Applications list](docs/Demo.png)
 ## How it works
 
 - `src/App.jsx` shows the login screen or the list, depending on whether a token is saved.
